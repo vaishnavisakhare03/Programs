@@ -24,10 +24,10 @@ def Lsearch():
     flag = 0
     key = int(input("Enter Roll Number of student to search : "))
     for i in range(n):
-        if (key == arr[i]):
+        if key == arr[i]:
             flag = 1
             break
-    if (flag == 1):
+    if flag == 1:
         print("Roll Number is Present")
     else:
         print("Roll Number is Absent")
