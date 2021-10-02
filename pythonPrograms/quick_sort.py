@@ -1,5 +1,9 @@
 def Qsort(array, low, high):
+<<<<<<< HEAD
     if low < high:
+=======
+    if(low < high):
+>>>>>>> ea5064f63cb19cff86a71bedce9ff98c5e7435a3
         p = partition(array, low, high)
         Qsort(array, p + 1, high)
         Qsort(array, low, p - 1)
@@ -43,6 +47,7 @@ for i in range(0, n):
 
 for i in range(0, 5):
     for j in range(0, 5):
+<<<<<<< HEAD
         if arr[j] < arr[j + 1]:
             temp = arr[j]
             arr[j] = arr[j + 1]
@@ -51,3 +56,15 @@ for i in range(0, 5):
 print("Top five percentages are")
 for i in range(0, 5):
     print(arr[i])
+=======
+        if(arr[j]<arr[j+1]):
+            temp = arr[j]
+            arr[j] = arr[j+1]
+            arr[j+1] = temp
+            
+print("Top five percentages are")
+for i in range(0, 5):            
+    print(arr[i])
+   
+    
+>>>>>>> ea5064f63cb19cff86a71bedce9ff98c5e7435a3
